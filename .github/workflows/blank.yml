@@ -21,8 +21,12 @@ def zero_floor():
     text_404 = room_404.readlines() #The readlines() method returns a list containing each line in the file as a list item. later in the print specefie the line
     room_404.close()## close the url and is good for memory manegment 
     
-    print ('printe in Room 000:' + text_000[36])## the text_000[36] reads line 37 in the html file where the cartridge level located 
-  
+    print ('printer in Room 000:' + text_000[36])## the text_000[36] reads line 37 in the html file where the cartridge level located 
+  ## to find the html line where the toner located you got to inspect the link and look for it. 
 
 zero_floor() ##print the function 
 zero_floor_floorcartridge() 
+##the output will be: 
+#Room_000 printer is up
+#printer in Room 000: Black Cartridge is ~23% 
+
