@@ -7,7 +7,7 @@ response_00 = os.system("ping " + room_000) ##add ping plus the variable above
 
 def zero_floor():
     print ('___________________________')
-    print ('5th floor results below:')
+    print ('floor results below:')
     if response_000 == 0: //if response is zero ping is successful and will print that 
         print ('Room_000 printer is up')
     else:
@@ -26,7 +26,9 @@ def zero_floor():
 
 zero_floor() ##print the function 
 zero_floor_floorcartridge() 
-##the output will be: 
+##the output will be:
+#___________________________ 
+#floor results below:
 #Room_000 printer is up
 #printer in Room 000: Black Cartridge is ~23% 
 
