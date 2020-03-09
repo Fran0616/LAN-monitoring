@@ -17,9 +17,9 @@ def zero_floor():
     print ('______________________________________________________________________________________________________')
     print ('Floor Cartridge Level Below')
     print("                                         ")
-    room_404 = urllib2.urlopen("html link goes here")##this opens up the url 
-    text_404 = room_404.readlines() #The readlines() method returns a list containing each line in the file as a list item. later in the print specefie the line
-    room_404.close()## close the url and is good for memory manegment 
+    room_000 = urllib2.urlopen("html link goes here")##this opens up the url 
+    text_000 = room_000.readlines() #The readlines() method returns a list containing each line in the file as a list item. later in the print specefie the line
+    room_000.close()## close the url and is good for memory manegment 
     
     print ('printer in Room 000:' + text_000[36])## the text_000[36] reads line 37 in the html file where the cartridge level located 
   ## to find the html line where the toner located you got to inspect the link and look for it. 
