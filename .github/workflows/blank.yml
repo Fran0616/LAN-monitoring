@@ -1,0 +1,28 @@
+##this scrip automate the process of finding if a printer is online and is great for troubleshoooting, it also let's user know the printer toner level
+import os #This module provides a portable way of using operating system dependent functionality
+import urllib2 ##import html text from URL
+
+room_000 = "-c1 add hostanem or static IP" #variable is for indicating the host name you wish to ping and -c1 means send one ping
+response_00 = os.system("ping " + room_000) ##add ping plus the variable above 
+
+def zero_floor():
+    print ('___________________________')
+    print ('5th floor results below:')
+    if response_000 == 0: //if response is zero ping is successful and will print that 
+        print ('Room_000 printer is up')
+    else:
+        print ('Room_000 printer down') //if the response not zero ping was not successful and will let network admin know
+        
+  def zero_floor_floorcartridge():
+    print ('______________________________________________________________________________________________________')
+    print ('Floor Cartridge Level Below')
+    print("                                         ")
+    room_404 = urllib2.urlopen("html link goes here")##this opens up the url 
+    text_404 = room_404.readlines() #The readlines() method returns a list containing each line in the file as a list item. later in the print specefie the line
+    room_404.close()## close the url and is good for memory manegment 
+    
+    print ('printe in Room 000:' + text_000[36])## the text_000[36] reads line 37 in the html file where the cartridge level located 
+  
+
+zero_floor() ##print the function 
+zero_floor_floorcartridge() 
