@@ -1,5 +1,5 @@
 # Fran
-Summarry 
+Summarry: 
 A host monitoring is a great tool to help monitor a Local Area Network (LAN). It works by sending an ICMP echo request to the network host. 
 It automates the network troubleshooting process and makes it more efficient for a user. 
 
