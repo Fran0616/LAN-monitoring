@@ -2,16 +2,23 @@
 import os #This module provides a portable way of using operating system dependent functionality
 import urllib2 ##import html text from URL
 
-room_000 = "-c1 add hostanem or static IP" #variable is for indicating the host name you wish to ping and -c1 means send one ping
-response_00 = os.system("ping " + room_000) ##add ping plus the variable above 
+room_000 = "-c1 add_hostname" #variable is for indicating the host name you wish to ping and -c1 means send one ping
+response_000 = os.system("ping " + room_000) ##add ping plus the variable above 
+room_001 = "-c1 add_hostname" #variable is for indicating the host name you wish to ping and -c1 means send one ping
+response_001 = os.system("ping " + room_001) ##add ping plus the variable above 
 
 def zero_floor():
     print ('___________________________')
     print ('floor results below:')
-    if response_000 == 0: //if response is zero ping is successful and will print that 
+    if response_000 == 0: ##if response is zero ping is successful and will print that 
         print ('Room_000 printer is up')
     else:
-        print ('Room_000 printer down') //if the response not zero ping was not successful and will let network admin know
+        print ('Room_000 printer down') ##if the response not zero ping was not successful and will let network admin know
+   
+    if response_001 == 0: 
+        print ('Room_001 printer is up')
+    else:
+        print ('Room_001 printer down') 
         
   def zero_floor_floorcartridge():
     print ('______________________________________________________________________________________________________')
