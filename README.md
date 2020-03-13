@@ -24,7 +24,7 @@ How it works?
 2. The printer HTTP server sends the HTML file to the client computer.
 3. The client computer split each line as a list 
 4. The client computer closes the url request with the use of the close method. 
-5.Next the client computer prints line 35 in the HTML file by specifying the line in the print statement 
+5. Next the client computer prints line 35 in the HTML file by specifying the line in the print statement 
 (line to print = n +1 ) n being the argument, so if you want to print line 36 the argument will be 35.
 
 
