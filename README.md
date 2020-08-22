@@ -1,13 +1,16 @@
-# Fran
+
 Summarry: 
+===========
 A host monitoring is a great tool to help monitor a Local Area Network (LAN). It works by sending an ICMP echo request to the network host. 
 It automates the network troubleshooting process and makes it more efficient for a user. 
 
 Goal:
+==========
 1. Automate the pinging process by adding every printer hostname into the script. 
 2. Help to make network troubleshooting more efficient. 
 
 How it works?
+==================
 1. The computer will send an Internet Control Message Protocol (ICMP) echo request on the network to the host and 
 this will be picked up by the router.
 2. The router will route the ICMP to the host, and wait for a reply.
@@ -16,6 +19,7 @@ this will be picked up by the router.
 4. The router will send the result back to the computer letting it know if the host is up or down.
 
 Version 1.1
+==================
 
 Goal: The goal of this update is to be able to display the printer's toner level. 
 
