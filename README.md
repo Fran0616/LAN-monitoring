@@ -31,4 +31,4 @@ How it works?
 5. Next the client computer prints line 35 in the HTML file by specifying the line in the print statement 
 (line to print = n +1 ) n being the argument, so if you want to print line 36 the argument will be 35.
 
-Code templet is [here:](https://github.com/Fran0616/Fran/blob/master/.github/workflows/host_availability.py_
+Code templet is [here:](https://github.com/Fran0616/Fran/blob/master/.github/workflows/host_availability.py)
