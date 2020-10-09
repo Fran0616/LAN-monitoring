@@ -2,7 +2,7 @@
 Summarry: 
 ===========
 A host monitoring is a great tool to help monitor a Local Area Network (LAN). It works by sending an ICMP echo request to the network host. 
-It automates the network troubleshooting process and makes it more efficient for a user. 
+It automates the network troubleshooting process and makes it more efficient for a user. The code templet can be fooud [here](https://github.com/Fran0616/LAN-monitoring/blob/master/.github/workflows/host_availability.py)
 
 Goal:
 ==========
@@ -31,4 +31,3 @@ How it works?
 5. Next the client computer prints line 35 in the HTML file by specifying the line in the print statement 
 (line to print = n +1 ) n being the argument, so if you want to print line 36 the argument will be 35.
 
-Code templet is [here:](https://github.com/Fran0616/Fran/blob/master/.github/workflows/host_availability.py)
