@@ -18,6 +18,8 @@ this will be picked up by the router.
     a. If the host isn’t available the router will acknowledge that it received no packet back.
 4. The router will send the result back to the computer letting it know if the host is up or down.
 
+Here is a flow chart of the (process)[https://github.com/Fran0616/LAN-monitoring/blob/master/Host%20monitoring%20tool%20flowchart%20copy.pdf] 
+
 Version 1.1
 ==================
 
