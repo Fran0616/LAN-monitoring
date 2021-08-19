@@ -20,6 +20,22 @@ this will be picked up by the router.
 
 Here is a flow chart of the [process](https://github.com/Fran0616/LAN-monitoring/blob/master/Host%20monitoring%20tool%20flowchart%20copy.pdf)
 
+ Test Data
+ = 
+ ```
+5th floor results below:
+
+Room_527 Lexmark ms 510 is up
+
+Room_524 Lexmark ms 510 is up
+
+Room_521 Lexmark ms 510 is up
+
+Room_514 Lexmark ms 510 is up
+
+Room_204 Lexmark ms 621 is down 
+ ```
+
 Version 1.1
 ==================
 
