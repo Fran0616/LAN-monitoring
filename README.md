@@ -33,6 +33,8 @@ Room_521 Lexmark ms 510 is up
 
 Room_514 Lexmark ms 510 is up
 
+2nd floor results incoming:
+
 Room_204 Lexmark ms 621 is down 
  ```
 
