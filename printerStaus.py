@@ -1,4 +1,5 @@
 #Francisco :)
+#This is just a templet and not the full code
 import os #This module provides a portable way of using operating sysitem functionality
 #import urllib.request  #module defines functions and classes which help in opening URLs(mostly HTTP) in a complex world - basic and digest authentication, redirections, cookies, and more
 import socket
