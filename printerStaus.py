@@ -40,55 +40,47 @@ def fifthFloor():
     print ('___________________________')
     print ('5th floor results below:')
     
-    if Rm527 == 0:
+    if Rm501 == 0:
         print ('Room 501 Lexmark ms 510 is up')
     else:
         print ('Room 501 Lexmark ms 510 down')
         
-    if Rm524 == 0:
+    if Rm502 == 0:
         print ('Room 502 Lexmark ms 510 is up')
     else:
         print ('Room 502 Lexmark ms 510 down')
         
-    if Rm521 == 0:
+    if Rm503 == 0:
         print ('Room 503 Lexmark ms 510 is up')
     else:
         print ('Room 503 Lexmark ms 510 down')
     
-    if Rm514 == 0:
+    if Rm504 == 0:
         print ('Room 504 Lexmark ms 510 is up')
     else:
         print ('Room 504 Lexmark ms 510 down')
     
-    if Rm510 == 0:
+    if Rm505 == 0:
         print ('Room 505 Lexmark ms 510 is up')
     else:
         print ('Room 506 Lexmark ms 510 down')
     
-    if Rm508 == 0:
+    if Rm506 == 0:
+        print ('Room 506 Lexmark ms 510 is up')
+    else:
+        print ('Room 506 Lexmark ms 510 down')
+    
+    if Rm507 == 0:
         print ('Room 507 Lexmark ms 510 is up')
     else:
         print ('Room 507 Lexmark ms 510 down')
-    
-    if Rm507 == 0:
+        
+    if Rm508 == 0:
         print ('Room 508 Lexmark ms 510 is up')
     else:
         print ('Room 508 Lexmark ms 510 down')
         
-    if Rm506 == 0:
-        print ('Room 509 Lexmark ms 510 is up')
-    else:
-        print ('Room 509 Lexmark ms 510 down')
-        
-    if Rm505 == 0:
-        print ('Room 510 Lexmark ms 510 is up')
-    else:
-        print ('Room 510 Lexmark ms 510 down')
-        
-    if Rm504 == 0:
-        print ('Room 511 Lexmark ms 510 is up')
-    else:
-        print ('Room 511 Lexmark ms 510 down')
+   
 
 def fourthFloor():
     print ('___________________________')
